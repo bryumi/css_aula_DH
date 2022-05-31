@@ -102,6 +102,34 @@ section#prices {
 .card .tag.yellow-bg {
     background: #ebcb21;
 }
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Ropa Sans;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+section#design img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 22vh;
+    opacity: 0.8;
+
+}
+
+section#design > ul{
+    list-style: none;
+}
+
+section#design > ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
 footer {
     margin-top: 30px;
     background-color: #333333;

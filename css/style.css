@@ -110,16 +110,21 @@ h3 {
     margin-bottom: 15px;
 }
 
-section#design img{
+section#design img {
+    min-width: 90vW;
+    min-height: 20vh
+
+}
+
+.list-photos{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-height: 22vh;
+
+
     opacity: 0.8;
-
 }
-
 section#design > ul{
     list-style: none;
 }
@@ -170,5 +175,10 @@ footer > ul li img + img {
     footer {
         display: block;
         text-align: center;
+    }
+    section#design img {
+        width: 100%;
+        min-height: 20vh
+    
     }
 }
